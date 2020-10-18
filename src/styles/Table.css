@@ -1,0 +1,24 @@
+.main {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.user-list {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.user-list li:last-child:after {
+	display: none;
+}
+
+.user-list li {
+	padding-right: 8px;
+}
+
+.user-list li:after {
+	content: ',';
+}
